@@ -1,7 +1,7 @@
 # linux-env
 ## archlinuxのローカル環境置き場
 
-###thames
+### thames
 - xmonad
 
 ### shell
