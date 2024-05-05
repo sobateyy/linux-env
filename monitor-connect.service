@@ -1,0 +1,17 @@
+[Unit]
+Description=Connect to HDMI Monitor
+After=display.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash -c '
+    if [ -e /sys/class/drm/card*/device/HDMI1 ]; then
+        xrandr --output HDMI1 --auto --right-of VGA1
+    elif [ -e /sys/class/drm/card*/device/HDMI2 ]; then
+        xrandr --output HDMI2 --auto --right-of VGA1
+    fi
+'
+After=multi-user.target graphical.target display-manager.service
+
+[Install]
+WantedBy=multi-user.target
