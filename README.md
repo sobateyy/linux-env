@@ -17,7 +17,7 @@
 1. ```cd /etc/systemd/system```
 2. ```sudo vim monitor-connect.service```
 3. ```sudo systemctl daemon-reload```
-4. ```systemctl enable monitor-connect.service```
+4. ```sudo systemctl enable monitor-connect.service```
 5. ```reboot```
 
 ### etc
