@@ -1,17 +1,15 @@
 # linux-env
 ## archlinuxのローカル環境置き場
 
-### thames
-- xmonad
+### xmonad.hs
+1. ```sudo vim ~/.xmonad/xmonad.hs```
+2. ```xmonad --recompile```
 
-### shell
-- zsh
+### zshrc
 
-### editor
-- vim
+### vimrc
 
-### tominal
-- tominator
+### tominator
 
 ### monitor-connect.service
 1. ```cd /etc/systemd/system```
