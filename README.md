@@ -1,5 +1,6 @@
 # linux-env
 ## archlinuxのローカル環境置き場
+origin/masterにコードをアップ
 
 ### xmonad.hs
 1. ```sudo vim ~/.xmonad/xmonad.hs```
